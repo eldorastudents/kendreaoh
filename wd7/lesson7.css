@@ -1,0 +1,38 @@
+h1  {
+
+      border: 5px solid black;
+      display: inline;
+}
+.box {
+     border: 5px solid black;
+     position:absolute;
+     top:100px;
+     left:50px;
+}
+/* when the position is absolute it means that the text stays on the browser page lul :D */
+/* when the position is relative it means that something can be bigger than another thing lul */
+#two  {
+
+    position:relative;
+    top: 20 px;
+    left: 20px;
+    background:blue;
+/* when the position is fixed it would just stay at the same position until you go back to the original position lul :D */
+/* when the position is sticky it means that it would stick the to page when you scorll down in the browser lul :D */
+/* the float property allows us to control the position of an element lul :DD */
+}
+ .fix { 
+    position:fixed;
+    top:50px;
+    left:100px;
+    border: 5px solid blue;
+
+}
+.navbar  {
+
+    background-color:#FFFAFF;
+    border:solid #000080;
+    font-size:20px;
+    position:sticky;
+    top:0px;
+}
